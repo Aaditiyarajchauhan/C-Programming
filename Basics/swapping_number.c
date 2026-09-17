@@ -7,18 +7,15 @@ int main(){
     scanf("%d",&b);
     printf("Before swapping\n");
     printf("a=%d\nb=%d\n",a,b);
-    printf("After swapping\n");
-    // Without using third variable
-    a=a+b;
-    b=a-b;
-    a=a-b;
-    //Using third variable
     /*
-    int temp;
-    temp=a;
+    This is wrong method
+    printf("After swapping\n");
+    printf("a=%d\nb=%d",b,a);
+    */
+    int temp=a;
     a=b;
     b=temp;
-    */
+    printf("After swapping\n");
     printf("a=%d\nb=%d",a,b);
     return 0;
 }
