@@ -8,6 +8,17 @@ int main(){
     printf("Before swapping\n");
     printf("a=%d\nb=%d\n",a,b);
     printf("After swapping\n");
-    printf("a=%d\nb=%d",b,a);
+    // Without using third variable
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    //Using third variable
+    /*
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+    */
+    printf("a=%d\nb=%d",a,b);
     return 0;
 }
