@@ -11,7 +11,7 @@ void swap(int a, int b){  // the variable a and b inside this function  are loca
     //That Swaping works only under the scope variable int a , int b in the swap function
     printf("  a=%d  b=%d\n",a,b); // this output is for swap function not for main function.
                                   // by default c use call-by-value so these change not show in the main function.
-                                  // resolve by call-by-reference
+                                  // resolve by call-by-reference(pointers)
     return;
 }
 int main(){
