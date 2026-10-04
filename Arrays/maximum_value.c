@@ -9,7 +9,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    int a[n];
     max=a[0]; //max=INT_MIN; in this store max it store the very smallest number 
     for(int i=1;i<n;i++){ //for(int i=0;i<n;i++)
         if(max<a[i]){
